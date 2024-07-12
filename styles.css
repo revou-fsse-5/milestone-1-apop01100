@@ -1,0 +1,581 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    padding-top: 40px;
+    margin: 0px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar {
+    color: white;
+    position: fixed;
+    display: flex;
+    top: 0;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+
+.navbar img {
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    display: none;
+    height: 25px;
+    width: 25px;
+    padding: 0px 8px;
+}
+
+.nasa-icon {
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    padding: 0px 8px;
+}
+
+.navbar-list ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 8px;
+}
+
+.navbar-list li {
+    float: left;
+}
+
+.navbar-list li a {
+    font-weight: 200;
+}
+
+/* Main */
+.header {
+    display: flex;
+    flex-direction: column;
+    color : white;
+    background: url(./src/img/hubble-telescope.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #3b3b3b;
+}
+
+hr {
+    border-top: 0px solid;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0px 10px 0px;
+}
+
+.header p {
+    margin: 10px 0px 0px 0px;
+}
+
+.header h2 {
+    margin : 5px 0px 10px 0px;
+}
+
+.item-h2 {
+    margin-top: 80px;
+}
+
+/* Solar System Contain */
+.space-station-container {
+    padding: 0px 30px;
+}
+
+.space-station-container h2 {
+    font-size: 1.5em;
+}
+
+.item1 a{
+    font-weight: 300;
+}
+
+.text-arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.text-arrow span {
+    display: flex;
+    align-items: center;
+}
+
+.text-arrow img{
+    width: 1.3em;
+    height: 1.3em;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px 0px 20px 0px;
+    color: white;
+    text-shadow: 2px 2px 4px var(--shadow-color);
+    column-gap: 16px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    height: 500px;
+    width: 100%x;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card-item h3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.card-item1 {
+    background: url("./src/img/img1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-item2 {
+    background-image: url("./src/img/img2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-item3 {
+    background-image: url("./src/img/img3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-item4 {
+    background-image: url("./src/img/img4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.earth-info-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    background-image: url("./src/img/earth.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding: 50px 100px;
+    margin: 30px 0px;
+    text-shadow: 2px 2px 4px var(--shadow-color);
+}
+
+.earth-info-cont h2 {
+    font-size: 2.5em;
+}
+
+.earth-info-cont p {
+    font-size: 1em;
+}
+
+.earth-info-cont a {
+    font-size: 1.2em;
+}
+
+.image-of-the-day-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0px 100px;
+    gap: 30px;
+}
+
+.figure-item {
+    height: 100%;
+    width: 100%;
+    align-self: flex-start;
+    margin: 0px;
+}
+
+.figure-item > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.figure-item h2 {
+    margin: 0px 0px 8px 0px;
+}
+
+.figure-item span {
+    font-size: 0.8em;
+}
+
+.figure-item a {
+    text-align: flex;
+    justify-content: end;
+    font-weight: 400;
+    margin: 8px 0px 0px 0xp;
+    font-size: 1em;
+}
+
+.figure-item > div {
+    align-items: flex-end;
+}
+
+.nasa-images-cont {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: start;
+}
+
+.grid-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+}
+
+.grid-images h3 {
+    font-size: 0.8em;
+    margin: 0px;
+    font-weight: 400;
+    grid-column: 1 / span 2;
+}
+
+.image-birds {
+    display: grid;
+    gap: 8px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    object-fit: cover;
+}
+
+.img-grid-bird1 {
+    grid-row: 1 / span 2;
+}
+
+.img-grid-bird {
+    height: 100%;
+    width: 100%;
+}
+
+.image-reptiles {
+    display: grid;
+    gap: 8px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    object-fit: cover;
+
+}
+
+.img-grid-reptile1 {
+    grid-row: 1 / span 2;
+}
+
+.img-grid-reptile {
+    height: 100%;
+    width: 100%;
+}
+
+.image-mammals {
+    display: grid;
+    gap: 8px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    object-fit: cover;
+
+}
+
+.img-grid-mammal1 {
+    grid-row: 1 / span 2;
+}
+
+.img-grid-mammal {
+    height: 100%;
+    width: 100%;
+}
+
+.topics-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    margin: 30px 0px;
+}
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.item-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    height: 400px;
+    text-shadow: 2px 2px 4px var(--shadow-color);
+    padding: 30px 30px;
+    font-size: 1.5em;
+}
+
+.item-grid1 {
+    background-image: url("./src/img/missions.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.item-grid2 {
+    background-image: url("./src/img/human-in-space.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.item-grid3 {
+    background-image: url("./src/img/climate-change.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.item-grid4 {
+    background-image: url("./src/img/solar-system.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.item-grid5 {
+    background-image: url("./src/img/universe.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.item-grid6 {
+    background-image: url("./src/img/science-news.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.item-grid7 {
+    background-image: url("./src/img/aeronautics.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.item-grid8 {
+    background-image: url("./src/img/technology.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+}
+
+.footer-list-img {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-list-img li img{
+    width: 25px;
+    height: 25px;
+}
+
+.footer-item1 {
+    grid-column: 1 / span 3;
+    margin: 16px 0px;
+}
+
+.footer-item2 {
+    margin: 16px 0px;
+}
+
+.footer-item2 p {
+    font-weight: 200;
+}
+
+.footer-item3 {
+    padding: 0px 50px;
+}
+
+.footer-item3 p {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 8px 0px;
+}
+
+.footer-item4 {
+    padding: 0px 50px;
+}
+
+.footer-item4 p {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 8px 0px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 200;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-list li {
+    padding: 8px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 20px;
+    }
+
+    .image-of-the-day-cont {
+        margin: 0px;
+        padding: 0px 30px;
+    }
+
+    .grid-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .image-mammals {
+        display: none;
+    }
+
+    .topics-container {
+        margin: 30px 0px;
+        padding: 0px 20px;
+    }
+
+    .topics-grid {
+        display: grid;
+        row-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(1fr, 8);
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar-list{
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 20px;
+    }
+
+    .image-of-the-day-cont {
+        flex-direction: column;
+        height: 100%;
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .figure-item {
+        align-items: center;
+    }
+
+    .figure-item > img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .grid-images {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1fr;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .image-reptiles {
+        display: none;
+    }
+
+    .image-mammals {
+        display: none;
+    }
+
+    .topics-container {
+        margin: 30px 0px;
+        padding: 0px 20px;
+    }
+
+    .topics-grid {
+        display: grid;
+        row-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr, 8);
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 1fr;
+    }
+
+    .footer-item1 {
+        grid-column: 1 / span 2;
+    }
+    
+    .footer-item2 {
+        grid-column: 1 / span 2;
+    }
+
+    .footer-item3 {
+        padding: 0px;
+    }
+
+    .footer-item4 {
+        padding: 0px;
+    }
+}
