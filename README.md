@@ -70,15 +70,15 @@ The first step to deploy this project in Vercel is createing a new account or us
 
 After you successfully login, you wil be redirected to dashboard of Vercel app like this:
 
-    ![alt text](image-1.png)
+    ![alt text](./src/docs/image-1.png)
 
 In thise case, I already import the project from GitHub to Vercel. So if you want to import your existing project from GitHub, you can "Add New Project" like this:
 
-    ![alt text](image-2.png)
+    ![alt text](./src/docs/image-2.png)
 
 And then import your GitHub repository in here:
 
-    ![alt text](image-3.png)
+    ![alt text](./src/docs/image-3.png)
 
 2. Domain Register with NiagaHoster
     
@@ -86,27 +86,27 @@ And then import your GitHub repository in here:
 
     After you login and have a domain for your project, you will b redirected to this pages:
 
-    ![alt text](image-4.png)
+    ![alt text](./src/docs/image-4.png)
 
 3. Modify your project with customize domain
     
     Go to dashboard Vercel -> Choose The Project -> Domain :
 
     Dashoboard Verchel
-    ![alt text](image-5.png)
+    ![alt text](./src/docs/image-5.png)
 
     The Project
-    ![alt text](image-6.png)
+    ![alt text](./src/docs/image-6.png)
 
     Select Domain
-    ![alt text](image-7.png)
+    ![alt text](./src/docs/image-7.png)
 
     Import your customize domain, and make sure DNS/Nameserver in NiagaHoster same in Vercel. You can setting DNS/Nameserver Niagahoster in same page Niagahoster domain above:
-    ![alt text](image-8.png)
+    ![alt text](./src/docs/image-8.png)
 
 4. Congartulaitons, Your's done!
 
     You should wait within 1x24 hours to let the NiagaHoster setting up the DNS, it could be faster or slower depending on the provider internet that you're using. If you success in this step, the output will be  like this in your Vercel project domain:
-    ![alt text](image-9.png)
+    ![alt text](./src/docs/image-9.png)
 
 
